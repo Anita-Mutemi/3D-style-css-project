@@ -10,11 +10,13 @@ body {
     align-items: center;
     /* use font size as a variable */
     font-size: 75px;
-    perspective: 20em;
+    perspective: 10em;
+    perspective-origin: 50% calc(50% - 2em);
 }
 
 .scene {
     position: relative;
+    transform-style: preserve-3d;
 }
 
 .ball {
