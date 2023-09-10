@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     /* use font size as a variable */
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .scene {
@@ -24,8 +24,9 @@ body{
 }
 
 .cube {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     /* use the variable in the root */
     background: var(--boxColor);
 }
+
