@@ -91,21 +91,13 @@ body {
 
     }
 
-    .front {
-        transform: translateZ(1em);
-    }
+    .front { transform: translateZ(1em);}
 
-    .right {
-        transform: rotateY(90deg) translateZ(1em);
-    }
+    .right { transform: rotateY(90deg) translateZ(1em); }
 
-    .back {
-        transform: rotateY(180deg) translateZ(1em);
-    }
+    .back { transform: rotateY(180deg) translateZ(1em); }
 
-    .left {
-        transform: rotateY(270deg) translateZ(1em);
-    }
+    .left { transform: rotateY(270deg) translateZ(1em); }
 
     .top {
         position: absolute;
