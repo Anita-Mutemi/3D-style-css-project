@@ -23,4 +23,9 @@ body{
     background: lightblue;
 }
 
-.box 
+.cube {
+    width: 3em;
+    height: 3em;
+    /* use the variable in the root */
+    background: var(--boxColor);
+}
