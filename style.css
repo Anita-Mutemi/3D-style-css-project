@@ -8,8 +8,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* use font size as a variable */
+    font-size: 50px;
 }
 
 .scene {
     position: relative;
 }
+
+.ball {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: lightblue;
+}
+
+.box 
