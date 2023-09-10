@@ -39,10 +39,18 @@ body {
     position: absolute;
     top: -1em;
     left: -1em;
+
+    .left, .right, .top,.bottom {
+        position: absolute;
+        width:100%;
+        height: 100%;
+        background: var(--boxColor);
+    }
 }
 
 .floor {
     position: absolute;
+    top: 1em;
     transform: 
         translate(-50%, -50%)
         rotateX(90deg);
