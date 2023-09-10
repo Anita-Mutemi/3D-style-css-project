@@ -2,7 +2,7 @@
     --boxColor: #0ff7;
 }
 
-body{
+body {
     background-color: #000;
     min-height: 100vh;
     display: flex;
@@ -10,6 +10,7 @@ body{
     align-items: center;
     /* use font size as a variable */
     font-size: 75px;
+    perspective: 20em;
 }
 
 .scene {
@@ -42,8 +43,7 @@ body{
     position: absolute;
     transform: 
         translate(-50%, -50%)
-        rotateX(90deg)
-        ;
+        rotateX(90deg);
     width: 5em;
     height: 5em;
     background-image: repeating-conic-gradient(
