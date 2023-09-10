@@ -49,6 +49,7 @@ body {
         50% { bottom: 3em; animation-timing-function: ease-in; }
     } 
 }
+
 .ballshadow {
     position: absolute;
     width: 100%; height: 100%;
@@ -58,10 +59,11 @@ body {
     sceneRotate var(--rotateSpeed) infinite linear reverse;
 
     @keyframes ballShadow {
-        0%, 100% { transform: scale(1); opacity:1}
-        50% { transform: scale(2); opacity:0.5; animation-timing-function: ease-in; }
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.2); opacity: 0.5; animation-timing-function: ease-in; }
+    }    
 }
-}
+
 .cube {
     width: 2em;
     height: 2em;
