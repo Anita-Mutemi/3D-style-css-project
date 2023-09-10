@@ -21,5 +21,3 @@ The 3D perspective is applied to the parent #scene element. Change the perspecti
 ## License
 
 This project is open source and available under the MIT License.
-
-Let me know if you would like me to modify or expand the README further. I can add installation instructions, credits, or additional sections as needed.
