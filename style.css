@@ -159,10 +159,10 @@ body {
 
 .floor {
     position: absolute;
-    top: 1em;
     transform: 
         translate(-50%, -50%)
         rotateX(90deg);
+    top: 1em;
     width: 15em;
     height: 15em;
     background-image: 
