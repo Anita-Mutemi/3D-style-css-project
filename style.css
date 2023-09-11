@@ -38,13 +38,8 @@ body {
     position: absolute;
     left: -0.5em;
     bottom: 1em;
-    background-image: radial-gradient(
-        circle at top,
-        lightblue,
-        #000
-    );
-    animation: ballBounce var(--bounceSpeed) infinite ease-out,
-    sceneRotate var(--rotateSpeed) infinite linear reverse;
+    background-image: radial-gradient(circle at top, lightblue, #000);
+    animation: ballBounce var(--bounceSpeed) infinite ease-out, sceneRotate var(--rotateSpeed) infinite linear reverse;
 
     @keyframes sceneRotate {
         to {
@@ -52,8 +47,7 @@ body {
         }
     }
     @keyframes ballBounce{
-        0%, 
-        100% { 
+        0%, 100% { 
             bottom: 0.5em; 
         }
         50% { 
