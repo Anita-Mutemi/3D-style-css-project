@@ -1,7 +1,7 @@
 :root {
     --boxColor: #0ff7;
-    --rotateSpeed: 30s;
-    --bounceSpeed: 1.5s;
+    --rotateSpeed: 5s;
+    --bounceSpeed: 1.2s;
 }
 
 body {
@@ -37,24 +37,23 @@ body {
     left: -0.5em;
     bottom: 1em;
     background-image: radial-gradient(circle at top, lightblue, #000);
-    animation: ballBounce var(--bounceSpeed) infinite ease-out, 
-        sceneRotate var(--rotateSpeed) infinite linear reverse;
+
+    animation: ballBounce var(--bounceSpeed) infinite ease-out, sceneRotate var(--rotateSpeed) infinite linear reverse;
+}
     @keyframes sceneRotate {
         to {
             transform: rotateY(360deg);
         }
     }
     @keyframes ballBounce{
-        0%, 
-        100% { 
+        0%, 100% { 
             bottom: 0.5em; 
         }
         50% { 
-            bottom: 3em; 
+            bottom: 5em; 
             animation-timing-function: ease-in; 
         }
     }
-}
  
 .ballShadow {
     position: absolute;
