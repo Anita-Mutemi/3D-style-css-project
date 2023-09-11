@@ -1,6 +1,6 @@
 # CSS 3D Box
 
-This is a simple CSS 3D animation of a rotating box with a floor and a ball. 
+This is a simple CSS 3D animation of a rotating box with a floor and a bouncing ball. 
 
 ## Description
 
